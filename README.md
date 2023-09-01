@@ -1,5 +1,9 @@
 # RainSimulator
-This project preloads an image, in this case a chicken, so that it loads in before any of the code executes.
-        It then uses the draw function to create random sized circles that are placed randomly throughout the screen. It
-        uses the "get" and "fill" functions to get the color of the background. It then places a circle of that color
-        down, recreating the background image, but out of circles.
+This project uses perlin noise values to generate a forever changing mountanous landscape. It also has a class
+        to create lines that represent the moving rain, as well as creating lightning that flashes once it hits a
+        certain x value. Once the rain hits the bottom of the screen, it will call another class that creates blue
+        semi-circles, giving the effect that the rain is splashing once it hits the ground. The frequency and magnitude
+        of these aspects of the project are controlled by the buttons on the bottom of the screen. Whenever one of the
+        buttons is clicked, it will change the amount of raindrops created, as well as increasing the chance for
+        lightning to strike. It will also change the speed at which the rain is falling, giving the illusion that it is
+        raining harder.
